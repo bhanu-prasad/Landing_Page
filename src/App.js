@@ -8,6 +8,7 @@ import Brands from "./components/brands"
 import Getintouch from "./components/getintouch"
 import Testimonial from "./components/Testimonial"
 import Price from "./components/price"
+import Calltoaction from "./components/calltoaction"
 import "./App.css"
 import "./css/default.css"
 import "./css/style.css"
@@ -23,6 +24,7 @@ class App extends React.Component{
         <Home/>
         <Services/>
         <Price />
+        <Calltoaction/>
         <Testimonial/>
         <Brands/>
         <Getintouch/>
