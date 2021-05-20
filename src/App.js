@@ -6,6 +6,7 @@ import Services from "./components/services"
 import Footer from "./components/footer"
 import Brands from "./components/brands"
 import Getintouch from "./components/getintouch"
+import Price from "./components/price"
 import "./App.css"
 import "./css/default.css"
 import "./css/style.css"
@@ -20,6 +21,7 @@ class App extends React.Component{
         <Navbar/>
         <Home/>
         <Services/>
+        <Price />
         <Brands/>
         <Getintouch/>
         <Footer/>
