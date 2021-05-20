@@ -5,6 +5,7 @@ import Home from "./components/home"
 import Services from "./components/services"
 import Footer from "./components/footer"
 import Brands from "./components/brands"
+import Getintouch from "./components/getintouch"
 import "./App.css"
 import "./css/default.css"
 import "./css/style.css"
@@ -20,6 +21,7 @@ class App extends React.Component{
         <Home/>
         <Services/>
         <Brands/>
+        <Getintouch/>
         <Footer/>
         <ScrollToTop/>
         </>)
