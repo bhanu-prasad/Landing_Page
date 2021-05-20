@@ -9,12 +9,6 @@ import Getintouch from "./components/getintouch"
 import Testimonial from "./components/Testimonial"
 import Price from "./components/price"
 import Calltoaction from "./components/calltoaction"
-import "./App.css"
-import "./css/default.css"
-import "./css/style.css"
-import "./css/LineIcons.css"
-import "./css/style.css.map"   
-import "./css/magnific-popup.css"
 import ScrollToTop from "./components/scrolltotop"
 
 class App extends React.Component{
@@ -30,6 +24,7 @@ class App extends React.Component{
         <Getintouch/>
         <Footer/>
         <ScrollToTop/>
+        
         </>)
     }
 }

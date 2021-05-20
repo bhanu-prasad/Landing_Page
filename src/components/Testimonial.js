@@ -118,7 +118,7 @@ const Testimonial = (props) => {
                 tag="div"
                 key={item.id}
                 onExiting={() => setAnimating(true)}
-                onExited={() => setAnimating(false)}>
+                onExited={() => setAnimating(false)} >
                     <CardDeck className="card-item">
                         <Card >
                             <CardBody className="text-center">
@@ -151,7 +151,7 @@ const Testimonial = (props) => {
     });
          
     return (
-        <section id="testimonial" className="testimonial-area">
+        <section id="testimonial" className="testimonial-area  pb-5">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-6">
