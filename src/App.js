@@ -6,6 +6,7 @@ import Services from "./components/services"
 import Footer from "./components/footer"
 import Brands from "./components/brands"
 import Getintouch from "./components/getintouch"
+import Testimonial from "./components/Testimonial"
 import Price from "./components/price"
 import "./App.css"
 import "./css/default.css"
@@ -22,6 +23,7 @@ class App extends React.Component{
         <Home/>
         <Services/>
         <Price />
+        <Testimonial/>
         <Brands/>
         <Getintouch/>
         <Footer/>
