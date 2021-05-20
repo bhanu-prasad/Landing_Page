@@ -8,7 +8,7 @@ import logo from  "../Assets/images/logo.svg"
 const Navbar = () => {
     return (
         <div>
-            <header className="header-area">
+        <header className="header-area">
         <div className="navgition navgition-transparent">
             <div className="container">
                 <div className="row">

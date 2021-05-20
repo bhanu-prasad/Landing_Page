@@ -163,12 +163,13 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
   .navgition.navgition-transparent {
-    background-color: transparent;
-    position: absolute;
+    background-color: #fff;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 99; }
+    z-index: 99;
+  box-shadow: 0 3px 3px 0 #1212125b ; }
   .navgition.sticky {
     position: fixed;
     background-color: #fff;
