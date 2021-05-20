@@ -2,16 +2,23 @@ import React from "react"
 import ReactDom from "react-dom"
 import Home from "./components/home"
 import Services from "./components/services"
-import ScrollToTop from "./components/scrolltotop"
 import Footer from "./components/footer"
+import Brands from "./components/brands"
 import "./App.css"
-
+import "./css/default.css"
+import "./css/style.css"
+import "./css/LineIcons.css"
+import "./css/style.css.map"   
+import "./css/magnific-popup.css"
+import ScrollToTop from "./components/scrolltotop"
 class App extends React.Component{
     render(){
         return(<>
         <Home/>
         <Services/>
+        <Brands/>
         <Footer/>
+        <ScrollToTop/>
         </>)
     }
 }

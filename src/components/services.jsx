@@ -11,7 +11,7 @@ const services =[{
     id:1,
     tileclass:"lni-bolt",
     title:"Startup",
-    desc:"Short description for the ones \n who look for something new."
+    desc:"Short description for the ones \n who look for something new. "
     
 },
 {

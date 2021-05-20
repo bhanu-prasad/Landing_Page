@@ -967,7 +967,17 @@ p.form-message.error {
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  display: none; }
+  display: block; }
   .back-to-top:hover {
     background-color: #005ad5;
     color: #fff; }
+
+  .back-to-top.active{
+    display: block;
+  }
+
+.client-logo-area {
+    background-color: #f4f6f7;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

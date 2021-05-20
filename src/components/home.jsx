@@ -26,6 +26,7 @@ class Home extends Component {
     
       openModal () {
         this.setState({isOpen: true})
+
       }
     
 
@@ -47,7 +48,9 @@ class Home extends Component {
                                                 channel='youtube' 
                                                 isOpen={this.state.isOpen}
                                                 videoId='r44RKWyfcFw'
-                                                onClose={() => this.setState({isOpen: false})} 
+                                                onClose={() => {this.setState({isOpen: false})}
+                                                
+                                            }
                                             />
                                             <a className="main-btn btn-two video-popup modal_btn" onClick={this.openModal} >WATCH THE VIDEO <i className="lni-play"></i></a>
                                         </li>
