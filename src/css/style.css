@@ -163,13 +163,12 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
   .navgition.navgition-transparent {
-    background-color: #fff;
-    position: fixed;
+    background-color: transparent;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 99;
-  box-shadow: 0 3px 3px 0 #1212125b ; }
+    z-index: 99; }
   .navgition.sticky {
     position: fixed;
     background-color: #fff;
@@ -968,17 +967,14 @@ p.form-message.error {
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  display: block; }
+  display: none; }
   .back-to-top:hover {
     background-color: #005ad5;
     color: #fff; }
 
-  .back-to-top.active{
-    display: block;
-  }
-
+    
 .client-logo-area {
-    background-color: #f4f6f7;
-    padding-top: 80px;
-    padding-bottom: 80px;
+  background-color: #f4f6f7;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }

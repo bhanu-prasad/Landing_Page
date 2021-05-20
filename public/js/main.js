@@ -1,8 +1,6 @@
-
-import {$} from "jquery"
 $(function() {
     
-    
+    "use strict";
     
     //===== Prealoder
     
@@ -71,36 +69,29 @@ $(function() {
     //===== Back to top
     
     // Show or hide the sticky footer button
-    // $(window).on('scroll', function(event) {
-    //     sif($(this).scrollTop() > 600){
-    //         $('.back-to-top').fadeIn(200)
-    //         cosnt btn = $('.back-to-top')
-    //     } ele{
-    //         $('.back-to-top').fadeOut(200)
-    //     }
-    // });
+    $(window).on('scroll', function(event) {
+        if($(this).scrollTop() > 600){
+            $('.back-to-top').fadeIn(200)
+        } else{
+            $('.back-to-top').fadeOut(200)
+        }
+    });
     
     
-    // //Animate the scroll to yop
-    // $('.back-to-top').on('click', function(event) {
-    //     event.preventDefault();
+    //Animate the scroll to yop
+    $('.back-to-top').on('click', function(event) {
+        event.preventDefault();
         
-    //     $('html, body').animate({
-    //         scrollTop: 0,
-    //     }, 1500);
-    // });
+        $('html, body').animate({
+            scrollTop: 0,
+        }, 1500);
+    });
     
     
     //===== 
     
-   const toTop = document.getElementsById("back-to-top")
-    window.addEventListener("scroll", () => {
-        if (window.pageYOffset > 100) {
-          toTop.classList.add("active");
-        } else {
-          toTop.classList.remove("active");
-        }
-      })
+    
+    
     
     
     
