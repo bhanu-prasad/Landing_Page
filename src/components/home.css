@@ -1,7 +1,19 @@
 .bg_cover{
     background: url(../Assets/images/header-bg.jpg) no-repeat center ;
+    background-size: cover;
     
 }
-.bg_test{
-    
+.utubeframe{
+    width:"420px";
+     height:"345px";
+}
+.modal_btn{
+    color: rgb(0,103,244)!important;
+}
+
+.utubemodal{
+    display: flex;
+    background: none;
+    justify-content: center;
+    align-items: center;
 }
