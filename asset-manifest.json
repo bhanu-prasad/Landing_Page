@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Landing_Page/static/css/main.9918ec7f.chunk.css",
+    "main.js": "/Landing_Page/static/js/main.666bc2bb.chunk.js",
+    "main.js.map": "/Landing_Page/static/js/main.666bc2bb.chunk.js.map",
+    "runtime-main.js": "/Landing_Page/static/js/runtime-main.5284e9f6.js",
+    "runtime-main.js.map": "/Landing_Page/static/js/runtime-main.5284e9f6.js.map",
+    "static/css/2.9dc35fa5.chunk.css": "/Landing_Page/static/css/2.9dc35fa5.chunk.css",
+    "static/js/2.da8ad9e6.chunk.js": "/Landing_Page/static/js/2.da8ad9e6.chunk.js",
+    "static/js/2.da8ad9e6.chunk.js.map": "/Landing_Page/static/js/2.da8ad9e6.chunk.js.map",
+    "index.html": "/Landing_Page/index.html",
+    "static/css/2.9dc35fa5.chunk.css.map": "/Landing_Page/static/css/2.9dc35fa5.chunk.css.map",
+    "static/css/main.9918ec7f.chunk.css.map": "/Landing_Page/static/css/main.9918ec7f.chunk.css.map",
+    "static/js/2.da8ad9e6.chunk.js.LICENSE.txt": "/Landing_Page/static/js/2.da8ad9e6.chunk.js.LICENSE.txt",
+    "static/media/LineIcons.css": "/Landing_Page/static/media/LineIcons.fb16b8b0.ttf",
+    "static/media/author-1.1e76d808.jpg": "/Landing_Page/static/media/author-1.1e76d808.jpg",
+    "static/media/author-2.838713c1.jpg": "/Landing_Page/static/media/author-2.838713c1.jpg",
+    "static/media/author-3.35769e11.jpg": "/Landing_Page/static/media/author-3.35769e11.jpg",
+    "static/media/author-4.4128ae45.jpg": "/Landing_Page/static/media/author-4.4128ae45.jpg",
+    "static/media/baloon.f889b8d5.svg": "/Landing_Page/static/media/baloon.f889b8d5.svg",
+    "static/media/call-to-action.f261f36f.png": "/Landing_Page/static/media/call-to-action.f261f36f.png",
+    "static/media/flower.d0005fa5.svg": "/Landing_Page/static/media/flower.d0005fa5.svg",
+    "static/media/home.css": "/Landing_Page/static/media/header-bg.79f35b37.jpg",
+    "static/media/header-shape.1c06358d.svg": "/Landing_Page/static/media/header-shape.1c06358d.svg",
+    "static/media/logo.53dce2b8.svg": "/Landing_Page/static/media/logo.53dce2b8.svg",
+    "static/media/services.d62fc154.png": "/Landing_Page/static/media/services.d62fc154.png",
+    "static/media/style.css.7bb034be.map": "/Landing_Page/static/media/style.css.7bb034be.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5284e9f6.js",
+    "static/css/2.9dc35fa5.chunk.css",
+    "static/js/2.da8ad9e6.chunk.js",
+    "static/css/main.9918ec7f.chunk.css",
+    "static/js/main.666bc2bb.chunk.js"
+  ]
+}
