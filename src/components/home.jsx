@@ -16,19 +16,7 @@ import  hwaveshape from "../Assets/images/header-shape.svg"
 
 
 class Home extends Component {
-    constructor () {
-        super()
-        this.state = {
-          isOpen: false
-        }
-        this.openModal = this.openModal.bind(this)
-      }
-    
-      openModal () {
-        this.setState({isOpen: true})
-
-      }
-    
+   
 
     render() {
         return (
@@ -43,17 +31,7 @@ class Home extends Component {
                                     <p className="text">A simple, customizable, and, beautiful SaaS business focused landing page to make your project closer to launch!</p>
                                     <ul className="header-btn">
                                         <li><a className="main-btn btn-one mr-2" href="#">GET IN TOUCH</a></li>
-                                        <li>
-                                            <ModalVideo 
-                                                channel='youtube' 
-                                                isOpen={this.state.isOpen}
-                                                videoId='r44RKWyfcFw'
-                                                onClose={() => {this.setState({isOpen: false})}
-                                                
-                                            }
-                                            />
-                                            <a className="main-btn btn-two video-popup modal_btn" onClick={this.openModal} >WATCH THE VIDEO <i className="lni-play"></i></a>
-                                        </li>
+                                        <li><a class="main-btn btn-two video-popup" href="https://www.youtube.com/watch?v=r44RKWyfcFw">WATCH THE VIDEO <i class="lni-play"></i></a></li>
                                     </ul>
                                 </div> 
                             </div>

@@ -5,10 +5,7 @@ import "../css/style.css"
 import "../css/LineIcons.css"
 import "../css/style.css.map"   
 import "../css/magnific-popup.css"
-// // import Swiper JS
-// import Swiper from 'swiper';
-// // import Swiper styles
-// import 'swiper/swiper-bundle.css';
+
 
 export default class ScrollToTop extends Component {
 
