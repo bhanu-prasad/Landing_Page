@@ -2,12 +2,6 @@ import React from "react";
 import Pricing from "./pricingUI";
 import ballon from "../Assets/images/baloon.svg";
 import flower from "../Assets/images/flower.svg";
-import "../css/default.css";
-import "../css/style.css";
-import "../css/LineIcons.css";
-import "../css/style.css.map";
-import "../css/magnific-popup.css";
-import "../css/pricing.css";
 
 const Price = () => {
   return (
