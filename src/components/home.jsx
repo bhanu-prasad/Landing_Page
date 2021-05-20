@@ -9,8 +9,6 @@ import "../css/magnific-popup.css"
 import "./home.css"
 
 
-import ModalVideo from "react-modal-video"
-import "react-modal-video/scss/modal-video.scss"
 import  hwaveshape from "../Assets/images/header-shape.svg"
 
 
