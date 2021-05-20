@@ -4,9 +4,60 @@ import "../css/style.css"
 import "../css/LineIcons.css"
 import "../css/style.css.map"   
 import "../css/magnific-popup.css"
-import "./home.css"
+import "./services.css"
+import servimg from "../Assets/images/services.png"
+
+const services =[{
+    id:1,
+    tileclass:"lni-bolt",
+    title:"Startup",
+    desc:"Short description for the ones \n who look for something new."
+    
+},
+{
+    id:2,
+    tileclass:"lni-bar-chart",
+    title:"Saas Business",
+    desc:"Short description for the ones \n who look for something new."
+    
+},
+{
+    id:3,
+    tileclass:"lni-brush",
+    title:"Agency",
+    desc:"Short description for the ones \n who look for something new."
+    
+},
+{
+    id:4,
+    tileclass:"lni-bulb",
+    title:"App Landing",
+    desc:"Short description for the ones \n who look for something new."
+    
+}
+
+]
+
+const Servcomp = (props)=>{
+    return(
+         <div className="col-md-6">
+             <div className="services-content mt-40 d-sm-flex">
+                <div className="services-icon">
+                    <i className={props.tileclass}></i>
+                </div>
+                <div className="services-content media-body">
+                    <h4 className="services-title">{props.title}</h4>
+                    <p className="text">{props.desc.split("\n")}</p>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+
 
 export default class Services extends Component {
+    
     render() {
         return (
             <>
@@ -23,60 +74,20 @@ export default class Services extends Component {
                     <div className="row">
                         <div className="col-lg-8">
                             <div className="row">
-                                <div className="col-md-6">
-                                    <div className="services-content mt-40 d-sm-flex">
-                                        <div className="services-icon">
-                                            <i className="lni-bolt"></i>
-                                        </div>
-                                        <div className="services-content media-body">
-                                            <h4 className="services-title">Startup</h4>
-                                            <p className="text">Short description for the ones<br/> who look for something new.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                    <div className="col-md-6">
-                                        <div className="services-content mt-40 d-sm-flex">
-                                            <div className="services-icon">
-                                                <i className="lni-bar-chart"></i>
-                                            </div>
-                                            <div className="services-content media-body">
-                                                <h4 className="services-title">SaaS Business</h4>
-                                                <p className="text">Short description for the ones<br/> who look for something new.</p>
-                                            </div>
-                                        </div> 
-                                    </div>
+                                    <Servcomp tileclass={services[0].tileclass} title={services[0].title} desc={services[0].desc}/>
+                                    <Servcomp tileclass={services[1].tileclass} title={services[1].title} desc={services[1].desc}/>
                                 <div/>    
                             <div/>    
                         <div/>    
-                        <div className="col-md-6">
-                            <div className="services-content mt-40 d-sm-flex">
-                                <div className="services-icon">
-                                    <i className="lni-brush"></i>
-                                </div>
-                                <div className="services-content media-body">
-                                    <h4 className="services-title">Agency</h4>
-                                    <p className="text">Short description for the ones<br/> who look for something new.</p>
-                                </div>
-                            </div> 
-                        </div>
-                        <div className="col-md-6">
-                            <div className="services-content mt-40 d-sm-flex">
-                                <div className="services-icon">
-                                    <i className="lni-bulb"></i>
-                                </div>
-                                <div className="services-content media-body">
-                                    <h4 className="services-title">App Landing</h4>
-                                    <p className="text">Short description for the ones<br/> who look for something new.</p>
-                                </div>
-                            </div> 
-                        </div>
+                        <Servcomp tileclass={services[2].tileclass} title={services[2].title} desc={services[2].desc}/>
+                        <Servcomp tileclass={services[3].tileclass} title={services[3].title} desc={services[3].desc}/>
                     </div>
                     </div> 
                 </div> 
          
                 <div className="services-image d-lg-flex align-items-center">
                     <div className="image">
-                        <img src="assets/images/services.png" alt="Services"/>
+                        <img src={servimg} alt="Services"/>
                     </div>
                 </div> 
             </div>
@@ -85,3 +96,4 @@ export default class Services extends Component {
     }
 
 }
+
