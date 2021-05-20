@@ -9,6 +9,11 @@ import {
   CardSubtitle, CardBody
 } from 'reactstrap';
 import "./Testimonial.css"
+import "../css/default.css"
+import "../css/style.css"
+import "../css/LineIcons.css"
+import "../css/style.css.map"   
+import "../css/magnific-popup.css"
 
 const TestimonialData = {
     
@@ -151,7 +156,7 @@ const Testimonial = (props) => {
                 <div className="row justify-content-center">
                     <div className="col-lg-6">
                         <div className="section-title text-center pb-10">
-                            <h2 className="content-title">Testimonial</h2>
+                            <h2 className="title pt-5">Testimonial</h2>
                             <p className="text">
                                 Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!
                             </p>
