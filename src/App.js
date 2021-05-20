@@ -3,6 +3,7 @@ import ReactDom from "react-dom"
 import Home from "./components/home"
 import Services from "./components/services"
 import ScrollToTop from "./components/scrolltotop"
+import Footer from "./components/footer"
 import "./App.css"
 
 class App extends React.Component{
@@ -10,6 +11,7 @@ class App extends React.Component{
         return(<>
         <Home/>
         <Services/>
+        <Footer/>
         </>)
     }
 }
